@@ -101,7 +101,7 @@ static int[,] IntGenRandomNumbers(int count)
     return num;
 }
 
-//Function to add
+//Function to add doubles
 static void AddNumbers(double[,] nums, int count)
 {
     int i;
@@ -109,6 +109,7 @@ static void AddNumbers(double[,] nums, int count)
         nums[i,2] = nums[i,0] + nums[i,1];
     }
 }
+//Function to multiply doubles
 static void MultiplyNumbers(double[,] nums, int count)
 {
     int i;
@@ -116,6 +117,7 @@ static void MultiplyNumbers(double[,] nums, int count)
         nums[i,2] = nums[i,0] * nums[i,1];
     }
 }
+//Function to subtract doubles
 static void SubtractNumbers(double[,] nums, int count)
 {
     int i;
@@ -123,6 +125,7 @@ static void SubtractNumbers(double[,] nums, int count)
         nums[i,2] = nums[i,0] - nums[i,1];
     }
 }
+//Function to divide doubles 
 static void DivideNumbers(double[,] nums, int count)
 {
     int i;
@@ -130,6 +133,7 @@ static void DivideNumbers(double[,] nums, int count)
         nums[i,2] = nums[i,0] / nums[i,1];
     }
 }
+//Function to add integers
 static void intAddNumbers(int[,] nums, int count)
 {
     int i;
@@ -137,6 +141,7 @@ static void intAddNumbers(int[,] nums, int count)
         nums[i,2] = nums[i,0] + nums[i,1];
     }
 }
+//function to subtract integers
 static void intSubtractNumbers(int[,] nums, int count)
 {
     int i;
@@ -144,6 +149,7 @@ static void intSubtractNumbers(int[,] nums, int count)
         nums[i,2] = nums[i,0] - nums[i,1];
     }
 }
+//function to multiply integers
 static void intMultiplyNumbers(int[,] nums, int count)
 {
     int i;
@@ -151,6 +157,7 @@ static void intMultiplyNumbers(int[,] nums, int count)
         nums[i,2] = nums[i,0] * nums[i,1];
     }
 }
+//Square integers via multiplication
 static void SquareMultiplyNumbers(int[,] nums, int count)
 {
     int i;
@@ -158,6 +165,7 @@ static void SquareMultiplyNumbers(int[,] nums, int count)
         nums[i,2] = nums[i,0] * nums[i,0];
     }
 }
+//Square integers with MathPow
 static void SquareNumbers(int[,]nums, int count)
 {
   
